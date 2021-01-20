@@ -1,0 +1,107 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center; /* centers everything that doesn't have a set width*/
+    font-family: 'Merriweather', serif;
+    padding: 0
+  }
+
+  .top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    }
+  
+
+.profile-picture {
+    border-radius: 50%;
+    margin-left: 20%;
+  }
+
+  .multi-task {
+    width: 260px;
+    height: 250px;
+    float: left;
+    margin-top: 30px
+  }
+
+  .thriveimg {
+    width: 180px;
+    height: 180px;
+    float: right;
+    border-radius: 50%
+  }
+
+  .part-2 {
+    text-align: left;
+    margin-left: 24rem;
+    }
+    
+   h1, h2, h3 {
+    color: #66BFBF;
+    font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+   }
+
+   h5 {
+    color: #11999E;
+    font-weight: bold;
+   }
+
+    h3, p {
+        width: 60%;
+        margin: auto;
+      }
+      
+    .skill-row {
+    width: 70%;
+    margin: 40px auto 40px auto;
+    text-align: left;
+    line-height: 2;
+    }
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+
+  .contact-msg {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  .footer-link {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .copyright {
+      color: #fff;
+      font-size: 1rem;
+      padding: 20px 0
+  }
+
+  input[type=submit] {
+    width: 200px;
+    height: 60px;
+    border-radius: 80px;
+    line-height: 60px;
+    border: 3px solid #009688;
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: .3s;
+  }
+  
+  
+  
+  input[type=submit]:hover {
+    color: #fff;
+    background-color: #11999E;
+  }
